@@ -1,12 +1,13 @@
-[16:38:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:38:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:38:45] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:38:45] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:38:45] [main/INFO]: Loaded 0 recipes
-[16:38:45] [main/INFO]: Loaded 0 advancements
-[16:38:46] [Server thread/INFO]: Starting minecraft server version 1.13
-[16:38:46] [Server thread/INFO]: Loading properties
-[16:38:46] [Server console handler/ERROR]: Exception handling console input
+[10:44:56] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10:44:56] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:44:56] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:44:56] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10:44:56] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:44:57] [main/INFO]: Loaded 0 recipes
+[10:44:57] [main/INFO]: Loaded 0 advancements
+[10:44:57] [Server thread/INFO]: Starting minecraft server version 1.13.1
+[10:44:57] [Server thread/INFO]: Loading properties
+[10:44:57] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_181]
 	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_181]
@@ -19,96 +20,50 @@ java.io.IOException: The handle is invalid
 	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_181]
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_181]
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_181]
-	at sn$2.run(SourceFile:107) [server.jar:?]
-[16:38:46] [Server thread/INFO]: Default game type: SURVIVAL
-[16:38:46] [Server thread/INFO]: Generating keypair
-[16:38:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:38:46] [Server thread/INFO]: Using default channel type
-[16:38:46] [Server thread/INFO]: Preparing level "world"
-[16:38:46] [Server thread/INFO]: Reloading ResourceManager: Default
-[16:38:47] [Server thread/INFO]: Loaded 524 recipes
-[16:38:48] [Server thread/INFO]: Loaded 571 advancements
-[16:38:48] [Server thread/INFO]: Preparing start region for level 0
-[16:38:48] [Server thread/INFO]: Preparing spawn area: 4%
-[16:38:48] [Server thread/INFO]: Preparing spawn area: 8%
-[16:38:48] [Server thread/INFO]: Preparing spawn area: 12%
-[16:38:48] [Server thread/INFO]: Preparing spawn area: 16%
-[16:38:48] [Server thread/INFO]: Preparing spawn area: 20%
-[16:38:48] [Server thread/INFO]: Preparing spawn area: 24%
-[16:38:48] [Server thread/INFO]: Preparing spawn area: 28%
-[16:38:48] [Server thread/INFO]: Preparing spawn area: 32%
-[16:38:48] [Server thread/INFO]: Preparing spawn area: 36%
-[16:38:48] [Server thread/INFO]: Preparing spawn area: 40%
-[16:38:48] [Server thread/INFO]: Preparing spawn area: 44%
-[16:38:48] [Server thread/INFO]: Preparing spawn area: 48%
-[16:38:48] [Server thread/INFO]: Preparing spawn area: 52%
-[16:38:48] [Server thread/INFO]: Preparing spawn area: 56%
-[16:38:48] [Server thread/INFO]: Preparing spawn area: 60%
-[16:38:48] [Server thread/INFO]: Preparing spawn area: 64%
-[16:38:48] [Server thread/INFO]: Preparing spawn area: 68%
-[16:38:49] [Server thread/INFO]: Preparing spawn area: 72%
-[16:38:49] [Server thread/INFO]: Preparing spawn area: 76%
-[16:38:49] [Server thread/INFO]: Preparing spawn area: 80%
-[16:38:49] [Server thread/INFO]: Preparing spawn area: 84%
-[16:38:49] [Server thread/INFO]: Preparing spawn area: 88%
-[16:38:49] [Server thread/INFO]: Preparing spawn area: 92%
-[16:38:49] [Server thread/INFO]: Preparing spawn area: 96%
-[16:38:49] [Server thread/INFO]: Preparing spawn area: 100%
-[16:38:49] [Server thread/INFO]: Time elapsed: 1093 ms
-[16:38:49] [Server thread/INFO]: Done (2.473s)! For help, type "help"
-[16:38:49] [Server thread/INFO]: [@: Set the time to 1000]
-[16:38:51] [Server thread/INFO]: [@: Set the weather to clear]
-[16:38:51] [Server thread/INFO]: [@: Set the time to 1000]
-[16:43:56] [User Authenticator #1/INFO]: UUID of player artyda is 93d920a7-8fc9-49c4-8ec8-9d85459fe405
-[16:43:56] [Server thread/INFO]: artyda[/155.4.243.1:54409] logged in with entity id 205 at (-140.30081966392396, 66.71087067660112, 2042.3728649129366)
-[16:43:56] [Server thread/INFO]: artyda joined the game
-[16:43:57] [Server thread/INFO]: [@: Set the time to 1000]
-[16:43:59] [Server thread/INFO]: [@: Set the weather to clear]
-[16:49:01] [Server thread/INFO]: [@: Set the time to 1000]
-[16:49:03] [Server thread/INFO]: [@: Set the weather to clear]
-[16:53:43] [User Authenticator #2/INFO]: UUID of player ElvisLang is 892f481b-3cb2-42cb-ada4-986cd5e27ee5
-[16:53:43] [Server thread/INFO]: ElvisLang[/94.254.57.188:56272] logged in with entity id 5582 at (-54.00444208838826, 88.3571281996975, 2199.8425934719794)
-[16:53:43] [Server thread/INFO]: ElvisLang joined the game
-[16:54:00] [Server thread/INFO]: <artyda> ojojojoj
-[16:54:04] [Server thread/INFO]: <ElvisLang> yoyoyo
-[16:54:05] [Server thread/INFO]: [@: Set the time to 1000]
-[16:54:07] [Server thread/INFO]: [@: Set the weather to clear]
-[16:55:34] [Server thread/INFO]: ElvisLang lost connection: Disconnected
-[16:55:34] [Server thread/INFO]: ElvisLang left the game
-[16:55:50] [User Authenticator #3/INFO]: UUID of player ElvisLang is 892f481b-3cb2-42cb-ada4-986cd5e27ee5
-[16:55:50] [Server thread/INFO]: ElvisLang[/94.254.57.188:56270] logged in with entity id 9100 at (-71.14533480189195, 76.88047732032241, 2194.3403731832714)
-[16:55:50] [Server thread/INFO]: ElvisLang joined the game
-[16:56:00] [User Authenticator #4/INFO]: UUID of player ElvisLang is 892f481b-3cb2-42cb-ada4-986cd5e27ee5
-[16:56:06] [User Authenticator #5/INFO]: UUID of player ElvisLang is 892f481b-3cb2-42cb-ada4-986cd5e27ee5
-[16:56:10] [Server thread/INFO]: ElvisLang lost connection: Disconnected
-[16:56:10] [Server thread/INFO]: ElvisLang left the game
-[16:56:10] [Server thread/INFO]: ElvisLang[/94.254.57.188:56272] logged in with entity id 9713 at (-71.14533480189195, 76.88047732032241, 2194.3403731832714)
-[16:56:10] [Server thread/INFO]: ElvisLang joined the game
-[16:56:30] [Server thread/INFO]: ElvisLang lost connection: Disconnected
-[16:56:30] [Server thread/INFO]: ElvisLang left the game
-[16:56:30] [Server thread/INFO]: ElvisLang[/94.254.57.188:56274] logged in with entity id 9804 at (-71.14533480189195, 76.88047732032241, 2194.3403731832714)
-[16:56:30] [Server thread/INFO]: ElvisLang joined the game
-[16:56:31] [Server thread/INFO]: ElvisLang lost connection: Disconnected
-[16:56:31] [Server thread/INFO]: ElvisLang left the game
-[16:57:11] [User Authenticator #6/INFO]: UUID of player ElvisLang is 892f481b-3cb2-42cb-ada4-986cd5e27ee5
-[16:57:12] [Server thread/INFO]: ElvisLang[/94.254.57.188:56272] logged in with entity id 10691 at (-71.14533480189195, 76.88047732032241, 2194.3403731832714)
-[16:57:12] [Server thread/INFO]: ElvisLang joined the game
-[16:57:46] [User Authenticator #7/INFO]: UUID of player ElvisLang is 892f481b-3cb2-42cb-ada4-986cd5e27ee5
-[16:57:46] [Server thread/INFO]: ElvisLang lost connection: You logged in from another location
-[16:57:46] [Server thread/INFO]: ElvisLang left the game
-[16:57:46] [Server thread/INFO]: ElvisLang[/94.254.57.188:56275] logged in with entity id 12113 at (-58.917493402289665, 74.7368511979866, 2189.300000011921)
-[16:57:46] [Server thread/INFO]: ElvisLang joined the game
-[16:58:01] [Server thread/INFO]: ElvisLang lost connection: Timed out
-[16:58:01] [Server thread/INFO]: ElvisLang left the game
-[16:58:04] [User Authenticator #8/INFO]: UUID of player ElvisLang is 892f481b-3cb2-42cb-ada4-986cd5e27ee5
-[16:58:04] [Server thread/INFO]: ElvisLang[/94.254.57.188:56276] logged in with entity id 12488 at (-58.917493402289665, 74.7368511979866, 2189.300000011921)
-[16:58:04] [Server thread/INFO]: ElvisLang joined the game
-[16:58:49] [Server thread/INFO]: ElvisLang lost connection: Timed out
-[16:58:49] [Server thread/INFO]: ElvisLang left the game
-[16:59:09] [Server thread/INFO]: [@: Set the time to 1000]
-[16:59:11] [Server thread/INFO]: [@: Set the weather to clear]
-[17:01:20] [User Authenticator #9/INFO]: UUID of player ElvisLang is 892f481b-3cb2-42cb-ada4-986cd5e27ee5
-[17:01:20] [Server thread/INFO]: ElvisLang[/94.254.57.188:56271] logged in with entity id 14397 at (-64.09912652603138, 69.49251525136292, 2186.8814815952956)
-[17:01:20] [Server thread/INFO]: ElvisLang joined the game
-[17:04:13] [Server thread/INFO]: [@: Set the time to 1000]
-[17:04:15] [Server thread/INFO]: [@: Set the weather to clear]
+	at so$2.run(SourceFile:110) [server.jar:?]
+[10:44:57] [Server thread/INFO]: Default game type: CREATIVE
+[10:44:57] [Server thread/INFO]: Generating keypair
+[10:44:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:44:57] [Server thread/INFO]: Using default channel type
+[10:44:58] [Server thread/INFO]: Preparing level "world"
+[10:44:58] [Server thread/INFO]: Reloading ResourceManager: Default
+[10:44:58] [Server thread/INFO]: Loaded 524 recipes
+[10:44:59] [Server thread/INFO]: Loaded 571 advancements
+[10:44:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:44:59] [Server thread/INFO]: Preparing spawn area: 4%
+[10:44:59] [Server thread/INFO]: Preparing spawn area: 8%
+[10:44:59] [Server thread/INFO]: Preparing spawn area: 12%
+[10:44:59] [Server thread/INFO]: Preparing spawn area: 16%
+[10:44:59] [Server thread/INFO]: Preparing spawn area: 20%
+[10:44:59] [Server thread/INFO]: Preparing spawn area: 24%
+[10:44:59] [Server thread/INFO]: Preparing spawn area: 28%
+[10:44:59] [Server thread/INFO]: Preparing spawn area: 32%
+[10:44:59] [Server thread/INFO]: Preparing spawn area: 36%
+[10:44:59] [Server thread/INFO]: Preparing spawn area: 40%
+[10:44:59] [Server thread/INFO]: Preparing spawn area: 44%
+[10:44:59] [Server thread/INFO]: Preparing spawn area: 48%
+[10:45:00] [Server thread/INFO]: Preparing spawn area: 52%
+[10:45:00] [Server thread/INFO]: Preparing spawn area: 56%
+[10:45:00] [Server thread/INFO]: Preparing spawn area: 60%
+[10:45:00] [Server thread/INFO]: Preparing spawn area: 64%
+[10:45:00] [Server thread/INFO]: Preparing spawn area: 68%
+[10:45:00] [Server thread/INFO]: Preparing spawn area: 72%
+[10:45:00] [Server thread/INFO]: Preparing spawn area: 76%
+[10:45:00] [Server thread/INFO]: Preparing spawn area: 80%
+[10:45:00] [Server thread/INFO]: Preparing spawn area: 84%
+[10:45:00] [Server thread/INFO]: Preparing spawn area: 88%
+[10:45:00] [Server thread/INFO]: Preparing spawn area: 92%
+[10:45:00] [Server thread/INFO]: Preparing spawn area: 96%
+[10:45:00] [Server thread/INFO]: Preparing spawn area: 100%
+[10:45:00] [Server thread/INFO]: Time elapsed: 821 ms
+[10:45:00] [Server thread/INFO]: Done (2.188s)! For help, type "help"
+[10:49:13] [Server thread/INFO]: Stopping the server
+[10:49:13] [Server thread/INFO]: Stopping server
+[10:49:13] [Server thread/INFO]: Saving players
+[10:49:13] [Server thread/INFO]: Saving worlds
+[10:49:13] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[10:49:13] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[10:49:13] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[10:49:13] [Server Shutdown Thread/INFO]: Stopping server
+[10:49:13] [Server Shutdown Thread/INFO]: Saving players
+[10:49:13] [Server Shutdown Thread/INFO]: Saving worlds
